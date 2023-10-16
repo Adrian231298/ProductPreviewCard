@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+:root {
+  --gri:#9d9ca4;
+  --verde:#428069;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  width:100%;
+  height: 800px;
+  background-color: #f3eae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+card {
+  display: flex;
+  height:70%;
+  border-radius:68px;
+  background-color:white;
+}
+
+parfum {
+  background-image: url("image-product-desktop.jpg");
+  display:block;
+  background-size:cover;
+  width:55%;
+
+}
+
+detalii {
+  display:flex;
+  justify-content:space-evenly;
+  width:45%;
+  flex-direction: column;
+  padding-left: 2em;
+}
+
+h3 {
+  color: var(--gri);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-weight: 900;
+  width:81%;
+  font-size: 3rem;
+}
+p {
+  color: var(--gri);
+  width:81%;
+}
+price {
+  display:flex;
+  justify-content: space-between;
+  width:60%;
+  font-size: 2rem;
+  color: var(--verde);
+  font-style: italic;
+  font-weight: 900;
+}
+
+pret-vechi {
+  text-decoration: line-through;
+  color: var(--gri);
+  font-size:16px;
+}
+
+button {
+  background-color:var(--verde);
+  padding:1em;
+  width:89%;
+  border-style:none;
+  border-radius:10px;
+  color: white;
+}
+button:hover {
+  background-color:#1a4031;
+}
+i {
+  margin-right: 10px;
+}
+
